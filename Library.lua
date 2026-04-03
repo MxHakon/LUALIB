@@ -3041,15 +3041,15 @@ function Library:CreateWindow(...)
     local daySuffix = getDaySuffix(day)
 
     local titleParts = {
-        {text = "Prae", color = Color3.fromRGB(255, 255, 255)},
-        {text = " |", color = Color3.fromRGB(5, 95, 210)},
-        {text = " Premium", color = Color3.fromRGB(255, 255, 255)},
-        {text = " |", color = Color3.fromRGB(5, 95, 210)},
-        {text = " South Bronx", color = Color3.fromRGB(255, 255, 255)},
+        {text = "Prae", color = Color3.fromRGB(5, 95, 210)},
+        {text = " |", color = Color3.fromRGB(255, 255, 255)},
+        {text = " Premium", color = Color3.fromRGB(5, 95, 210)},
+        {text = " |", color = Color3.fromRGB(255, 255, 255)},
+        {text = " South Bronx", color = Color3.fromRGB(5, 95, 210)},
         {text = "  | ", color = Color3.fromRGB(255, 255, 255)},
         {text = monthName .. " " .. day .. daySuffix, color = Color3.fromRGB(5, 95, 210)},
         {text = "  |", color = Color3.fromRGB(255, 255, 255)},
-        {text = "  " .. executorname, color = Color3.fromRGB(255, 255, 255)}
+        {text = "  " .. executorname, color = Color3.fromRGB(5, 95, 210)}
     }
 
     local TextService
